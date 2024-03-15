@@ -107,3 +107,4 @@ if __name__  == "__main__":
 
     problem = Simplex(A,b,c)
     problem.solve()
+    print('Problema resuelto')
