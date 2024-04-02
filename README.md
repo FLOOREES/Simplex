@@ -9,16 +9,16 @@ Este proyecto implementa el algoritmo Simplex Primal en Python, diseñado para r
 
 ## Estructura del Proyecto
 El código se organiza en varios componentes clave:
-- `Simplex_final.py`: Implementación principal del algoritmo Simplex, incluyendo las fases I y II, y la lógica para resolver problemas.
-- `problemes.txt`: Conjunto de problemas de optimización lineal utilizados para probar y validar la implementación del algoritmo.
-- `INFORME_PRACTICA_1_OPTIMITZACION_LUIS_KAZUTO_GUTIERREZ_ADRIA_FLORES.pdf`: Documentación detallada del proyecto, incluyendo la introducción, implementación del algoritmo, y resultados obtenidos.
+- `Simplex_final.py`: Implementación principal del algoritmo Simplex, incluyendo las fases I y II, y la lógica para resolver problemas. Ubicado en la carpeta 'src'
+- `problemes.txt`: Conjunto de problemas de optimización lineal utilizados para probar y validar la implementación del algoritmo. Ubicado en la carpeta 'assets'
+- `INFORME_PRACTICA_1_OPTIMITZACION_LUIS_KAZUTO_GUTIERREZ_ADRIA_FLORES.pdf`: Documentación detallada del proyecto, incluyendo la introducción, implementación del algoritmo, y resultados obtenidos. 
 
 ## Cómo Ejecutar
 Para ejecutar el algoritmo y resolver los problemas de optimización lineal proporcionados en `problemes.txt`, sigue estos pasos:
 1. Asegúrate de tener Python instalado en tu sistema.
 2. Abre una terminal o línea de comandos.
-3. Navega al directorio que contiene `Simplex_final.py`.
-4. Ejecuta el script usando Python con el comando `python Simplex_final.py`.
+3. Navega al directorio que contiene 'src' y 'assets'.
+4. Ejecuta el script usando Python con el comando `python src/Simplex_final.py`.
 
 La ejecución del script procesará los problemas definidos en `problemes.txt` y mostrará los resultados en la terminal, incluyendo la solución óptima y el valor de la función objetivo para cada problema.
 
